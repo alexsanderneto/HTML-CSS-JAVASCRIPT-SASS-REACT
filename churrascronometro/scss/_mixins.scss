@@ -1,0 +1,32 @@
+@use 'variables';
+
+@mixin container{
+    width: variables.$largura-width;
+    height: variables.$altura-heigth;
+    margin-left: variables.$esquerda-left;
+    margin-right: variables.$direito-right;
+    
+
+}
+@mixin topo-fim{
+    width: variables.$largura-width;
+    height: 80px;
+    margin-left: variables.$esquerda-left;
+    margin-right: variables.$direito-right;
+}
+@mixin flex-center{
+    display: flex;
+    text-align: center;
+    
+    justify-content: center;
+    flex-direction: column;
+    
+}
+@mixin direitaesquerda{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+@mixin alturalargura{
+    width: variables.$largura2-width;
+    height: variables.$altura2-heigth;
+}
